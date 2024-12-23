@@ -1,22 +1,12 @@
 using NUnit.Framework;
 using System.Collections;
-using UnityEditor.SceneManagement;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
 
 namespace StatSystem.Tests
 {
-    public class StatTests
+    public class StatTests : BaseTests
     {
-        [OneTimeSetUp]
-        public void OneTimeSetup()
-        {
-            EditorSceneManager.LoadSceneInPlayMode(
-                path: "Assets/StatSystem/Tests/Scenes/Test.unity",
-                parameters: new LoadSceneParameters(LoadSceneMode.Single));
-        }
-
         [UnityTest]
         public IEnumerator Stat_WhenModifierApplied_ChangesValue()
         {
@@ -24,7 +14,7 @@ namespace StatSystem.Tests
 
             StatController statController = Object.FindObjectOfType<StatController>();
 
-            Stat physicalAttack = statController.stats["PhysicalAttack"];
+            Stat physicalAttack = GetStatFor("PhysicalAttack");
 
             Assert.AreEqual(0, physicalAttack.value);
 
@@ -42,9 +32,7 @@ namespace StatSystem.Tests
         {
             yield return null;
 
-            StatController statController = Object.FindObjectOfType<StatController>();
-
-            Stat attackSpeed = statController.stats["AttackSpeed"];
+            Stat attackSpeed = GetStatFor("AttackSpeed");
 
             Assert.AreEqual(1, attackSpeed.value);
 

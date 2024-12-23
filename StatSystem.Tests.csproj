@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2170C977-8556-4BA7-5256-DDD7E9BED36B}</ProjectGuid>
+    <ProjectGuid>{9CDADEB8-C541-66CE-20A1-27B8230F23DF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>StatSystem.Tests</AssemblyName>
@@ -60,6 +60,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\StatSystem\Tests\Runtime\BaseTests.cs" />
+    <Compile Include="Assets\StatSystem\Tests\Runtime\PrimaryStatTests.cs" />
+    <Compile Include="Assets\StatSystem\Tests\Runtime\AttributeTests.cs" />
     <Compile Include="Assets\StatSystem\Tests\Runtime\StatTests.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -909,7 +912,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="StatSystem.csproj">
-      <Project>{0F7A40BD-B1B4-85BF-08F6-2D947B94D36D}</Project>
+      <Project>{B02B03A5-3148-81A1-B9A8-77AD19BEF80B}</Project>
       <Name>StatSystem</Name>
     </ProjectReference>
   </ItemGroup>

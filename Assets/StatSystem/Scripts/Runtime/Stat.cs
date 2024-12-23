@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace StatSystem
 {
+
     public class Stat
     {
         protected StatDefinition m_Definition;

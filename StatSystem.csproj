@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0F7A40BD-B1B4-85BF-08F6-2D947B94D36D}</ProjectGuid>
+    <ProjectGuid>{B02B03A5-3148-81A1-B9A8-77AD19BEF80B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>StatSystem</AssemblyName>
@@ -60,6 +60,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\StatSystem\Scripts\Runtime\Attribute.cs" />
+    <Compile Include="Assets\StatSystem\Scripts\Runtime\PrimaryStat.cs" />
     <Compile Include="Assets\StatSystem\Scripts\Runtime\StatDatabase.cs" />
     <Compile Include="Assets\StatSystem\Scripts\Runtime\ModifierOperationType.cs" />
     <Compile Include="Assets\StatSystem\Scripts\Runtime\StatDefinition.cs" />

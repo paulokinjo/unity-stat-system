@@ -17,6 +17,7 @@ namespace StatSystem
         public bool isInitialized => m_IsInitialized;
 
         public event Action initialized;
+
         public event Action willUninitialize;
 
         protected virtual void Awake()
@@ -39,6 +40,16 @@ namespace StatSystem
             foreach (StatDefinition definition in m_StatDatabase.stats)
             {
                 m_Stats.Add(definition.name, new Stat(definition));
+            }
+
+            foreach (StatDefinition definition in m_StatDatabase.attributes)
+            {
+                m_Stats.Add(definition.name, new Attribute(definition));
+            }
+
+            foreach (StatDefinition definition in m_StatDatabase.primaryStats)
+            {
+                m_Stats.Add(definition.name, new PrimaryStat(definition));
             }
         }
     }

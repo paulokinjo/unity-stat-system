@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatSystem", "StatSystem.csproj", "{B02B03A5-3148-81A1-B9A8-77AD19BEF80B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatSystem.Tests", "StatSystem.Tests.csproj", "{9CDADEB8-C541-66CE-20A1-27B8230F23DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B02B03A5-3148-81A1-B9A8-77AD19BEF80B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02B03A5-3148-81A1-B9A8-77AD19BEF80B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02B03A5-3148-81A1-B9A8-77AD19BEF80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02B03A5-3148-81A1-B9A8-77AD19BEF80B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CDADEB8-C541-66CE-20A1-27B8230F23DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CDADEB8-C541-66CE-20A1-27B8230F23DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CDADEB8-C541-66CE-20A1-27B8230F23DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CDADEB8-C541-66CE-20A1-27B8230F23DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
