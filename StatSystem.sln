@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatSystem", "StatSystem.csproj", "{0F7A40BD-B1B4-85BF-08F6-2D947B94D36D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatSystem.Tests", "StatSystem.Tests.csproj", "{2170C977-8556-4BA7-5256-DDD7E9BED36B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F7A40BD-B1B4-85BF-08F6-2D947B94D36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7A40BD-B1B4-85BF-08F6-2D947B94D36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7A40BD-B1B4-85BF-08F6-2D947B94D36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7A40BD-B1B4-85BF-08F6-2D947B94D36D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2170C977-8556-4BA7-5256-DDD7E9BED36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2170C977-8556-4BA7-5256-DDD7E9BED36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2170C977-8556-4BA7-5256-DDD7E9BED36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2170C977-8556-4BA7-5256-DDD7E9BED36B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
