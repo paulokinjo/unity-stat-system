@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Core.Scripts.Editor.SplitView fixed-pane-initial-dimension="200" style="width: 1083px; height: 436px;">
+        <ui:VisualElement name="left-panel" style="flex-grow: 1; width: 223px; height: 621px; flex-shrink: 1; flex-direction: column; flex-wrap: nowrap;">
+            <uie:Toolbar style="height: 27px; width: 198px; justify-content: space-between;">
+                <uie:ToolbarSearchField focusable="true" name="ToolbarSearchField" style="height: 18px; width: 60%;" />
+                <ui:Button text="Create" parse-escape-sequences="true" display-tooltip-when-elided="true" name="create-button" enable-rich-text="false" style="height: 18px; width: 47px;" />
+            </uie:Toolbar>
+            <ui:ListView focusable="true" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="flex-grow: 1; flex-shrink: 1; width: 890px;">
+            <uie:PropertyField name="name-field" binding-path="m_Name" />
+            <Core.Scripts.Editor.Inspector name="Inspector" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </Core.Scripts.Editor.SplitView>
+</ui:UXML>
