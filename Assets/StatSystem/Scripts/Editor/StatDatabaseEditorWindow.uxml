@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/StatSystem/Scripts/Editor/StatDatabaseEditorWindow.uss?fileID=7433441132597879392&amp;guid=01167e2fa864874478ba432b8493133b&amp;type=3#StatDatabaseEditorWindow" />
+    <uie:Toolbar>
+        <uie:ToolbarButton text="Stats" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stats-tab" style="flex-grow: 1; -unity-text-align: middle-center;" />
+        <uie:ToolbarButton text="Primary Stats" parse-escape-sequences="true" display-tooltip-when-elided="true" name="primary-stats-tab" style="flex-grow: 1; -unity-text-align: middle-center;" />
+        <uie:ToolbarButton text="Attributes" parse-escape-sequences="true" display-tooltip-when-elided="true" name="attributes-tab" style="flex-grow: 1; -unity-text-align: middle-center;" />
+    </uie:Toolbar>
+    <StatSystem.Editor.StatCollectionEditor name="primary-stats" style="flex-grow: 1; display: none;" />
+    <StatSystem.Editor.StatCollectionEditor name="stats" style="flex-grow: 1;" />
+    <StatSystem.Editor.StatCollectionEditor name="attributes" style="flex-grow: 1; display: none;" />
+</ui:UXML>
